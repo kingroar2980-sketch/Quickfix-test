@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://YOUR-RENDER-URL.onrender.com";
 
 export default function App() {
   const [email, setEmail] = useState("");
